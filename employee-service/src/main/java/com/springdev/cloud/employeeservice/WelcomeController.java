@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController
 {
+    public  WelcomeController(){
+        System.out.println("sldfjsldk");
+    }
     @Value("${app.service-name}")
     private String serviceName;
 
